@@ -1,0 +1,24 @@
+{
+    "name": "wrj/uploadfile",
+    "description": "自定义单张/多张图片上传扩展包",
+    "type": "1",
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jierui303",
+            "email": "jierui303@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wrj\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
