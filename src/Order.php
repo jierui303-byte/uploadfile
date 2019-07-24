@@ -17,6 +17,7 @@ class Order
 
     public function __construct(int $a, int $b)
     {
+        //这里可以进行数据库主从配置连接, 形成一个数据库连接池, 保持长连接, 随取随用
         $this->a = $a;
         $this->b = $b;
     }
